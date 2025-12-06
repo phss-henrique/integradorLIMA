@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    box-shadow: 1px 0px 5px;
+}
+
+#navSection{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#navSection p{
+    font-family: Manrope;
+    font-size: 24px;
+}
+
+#navOptions{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 40%;
+}
+
+main{
+    width: 100%;
+    min-height: 100dvh;
+    display: flex;
+    flex: 1;
+}
+
+.logoFig{
+    width: 25%;
+}
+.navLogo{
+    width: 100px;
+    height: auto;
+    object-fit: contain;
+}
+#homeFace{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+#firstDivision{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#productsPreview{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.productsPreviewFig{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    filter: drop-shadow(0px 6px 20px rgba(0,0,0,0.15));
+    width: 15%;
+}
+.previewImg{
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+h1{
+    font-family: Manrope;
+}
+/*
+body{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-evenly
+}
+    */
