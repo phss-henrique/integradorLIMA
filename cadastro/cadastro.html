@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crie sua Conta - FitMachines</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <section class="success-screen">
+        <article class="success-card">
+            <div class="success-icon">✔</div>
+            <h2>Cadastro Realizado!</h2>
+            <p>Bem-vindo à FitMachines! Sua conta foi criada com sucesso.</p>
+            <a href="/produtos" class="btn-success">Começar a Comprar →</a>
+        </article>
+    </section>
+
+    <main class="signup-container">
+
+        <header class="header">
+            <a href="/" class="logo">
+                <img src="../resources/logoBlack.png" alt="Lift Logo"/>
+            </a>
+            <h1>Crie sua Conta</h1>
+            <p>Junte-se a nós e comece sua jornada fitness</p>
+        </header>
+
+        <section class="card">
+            <aside class="left">
+                <h2>Benefícios de Criar sua Conta</h2>
+
+                <ul class="benefits">
+                    <li>
+                        <span class="check">✔</span>
+                        <div>
+                            <h3>Ofertas Exclusivas</h3>
+                            <p>Acesso a promoções e descontos especiais</p>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="check">✔</span>
+                        <div>
+                            <h3>Frete Grátis</h3>
+                            <p>Frete grátis na primeira compra</p>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="check">✔</span>
+                        <div>
+                            <h3>Histórico de Pedidos</h3>
+                            <p>Acompanhe todas as suas compras</p>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="check">✔</span>
+                        <div>
+                            <h3>Atendimento Prioritário</h3>
+                            <p>Suporte exclusivo para clientes cadastrados</p>
+                        </div>
+                    </li>
+                </ul>
+            </aside>
+
+            <section class="right">
+                <form class="form">
+                    <label>Nome Completo *</label>
+                    <input type="text" required>
+
+                    <label>E-mail *</label>
+                    <input type="email" required>
+
+                    <label>Telefone *</label>
+                    <input type="tel" required>
+
+                    <div class="grid-2">
+                        <div>
+                            <label>Cidade *</label>
+                            <input type="text" required>
+                        </div>
+                        <div>
+                            <label>Estado *</label>
+                            <select required>
+                                <option value="">Selecione</option>
+                                <option>SP</option><option>RJ</option><option>MG</option><option>ES</option>
+                                <option>PR</option><option>SC</option><option>RS</option>
+                                <option>BA</option><option>PE</option><option>CE</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <label>Senha *</label>
+                    <input type="password" minlength="6" required>
+
+                    <label>Confirmar Senha *</label>
+                    <input type="password" required>
+
+                    <div class="terms">
+                        <input type="checkbox" required>
+                        <label>Eu aceito os termos de uso e a política de privacidade da FitMachines</label>
+                    </div>
+
+                    <button type="submit" class="btn">Criar Minha Conta →</button>
+
+                    <p class="login">
+                        Já tem uma conta?
+                        <a href="/login">Faça login</a>
+                    </p>
+                </form>
+            </section>
+        </section>
+
+    </main>
+
+</body>
+</html>

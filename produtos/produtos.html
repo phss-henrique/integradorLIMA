@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lift</title>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+    <header>
+        <nav>
+            <section id="navSection">
+                <figure class="logoFig">
+                    <a href="../index.html"><img src="../resources/logoBlack.png" class="navLogo" /></a>
+                    <p>Lift</p>
+                </figure>
+                <article id="navOptions">
+                    <a href="" class="navRefs">
+                        <p>Produtos</p>
+                    </a>
+                    <a href="" class="navRefs">
+                        <p>Login</p>
+                    </a>
+                    <a href="" class="navRefs">
+                        <p>Sobre nós</p>
+                    </a>
+                    <a href="" class="svgNavRefs"><svg viewBox="0 0 24 24" width="100%" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                            <g id="SVGRepo_iconCarrier">
+                                <g id="Interface / Shopping_Cart_02">
+                                    <path id="Vector"
+                                        d="M3 3H3.26835C3.74213 3 3.97943 3 4.17267 3.08548C4.34304 3.16084 4.48871 3.28218 4.59375 3.43604C4.71269 3.61026 4.75564 3.8429 4.84137 4.30727L7.00004 16L17.4218 16C17.875 16 18.1023 16 18.29 15.9199C18.4559 15.8492 18.5989 15.7346 18.7051 15.5889C18.8252 15.4242 18.8761 15.2037 18.9777 14.7631L18.9785 14.76L20.5477 7.95996L20.5481 7.95854C20.7023 7.29016 20.7796 6.95515 20.6947 6.69238C20.6202 6.46182 20.4635 6.26634 20.2556 6.14192C20.0184 6 19.6758 6 18.9887 6H5.5M18 21C17.4477 21 17 20.5523 17 20C17 19.4477 17.4477 19 18 19C18.5523 19 19 19.4477 19 20C19 20.5523 18.5523 21 18 21ZM8 21C7.44772 21 7 20.5523 7 20C7 19.4477 7.44772 19 8 19C8.55228 19 9 19.4477 9 20C9 20.5523 8.55228 21 8 21Z"
+                                        stroke="#000000" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                    </path>
+                                </g>
+                            </g>
+                        </svg></a>
+                </article>
+            </section>
+        </nav>
+    </header>
+    <main>
+
+        <section id="productsSection">
+            <h1>Nossos Produtos</h1>
+            <article id="productsFilters">
+                <div class="filterClasses">
+                    <label>Categoria:</label>
+                    <a class="productFilterBtn"><button class="selectFilter">Todos</button></a>
+                    <a class="productFilterBtn"><button class="selectFilter">Musculação</button></a>
+                    <a class="productFilterBtn"><button class="selectFilter">Cardio</button></a>
+                    <a class="productFilterBtn"><button class="selectFilter">Acessórios</button></a>
+                </div>
+                <div class="filter">
+                    <label for="sortSelect">Ordenar por:</label>
+                    <select id="sortSelect" name="sortSelect">
+                        <option value="default">Padrão</option>
+                        <option value="priceLowHigh">Preço: Menor para Maior</option>
+                        <option value="priceHighLow">Preço: Maior para Menor</option>
+                    </select>
+                </div>
+            </article>
+
+            <article id="productsList">
+
+                <div class="productsContainer">
+                    <article class="productCard">
+                        <figure class="productFig">
+                            <img src="../resources/agacahmentoHack-removebg-preview.png" class="productImg" />
+                        </figure>
+                        <div class="productInfo">
+                            <div class="productData">
+                                <h2>Banco de Supino</h2>
+                                <p>Banco ajustável para treino completo</p>
+                                <p class="productPrice">R$ 999,99</p>
+                            </div>
+                            <a class="btnComprar"><button class="addBtn">Adicionar</button></a>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="productsContainer">
+                    <article class="productCard">
+                        <figure class="productFig">
+                            <img src="../resources/cadeiraExtensora-removebg-preview.png" class="productImg" />
+                        </figure>
+                        <div class="productInfo">
+                            <div class="productData">
+                                <h2>Cadeira Extensora</h2>
+                                <p>Cadeira para treino de pernas</p>
+                                <p class="productPrice">R$ 999,99</p>
+                            </div>
+                            <a class="btnComprar"><button class="addBtn">Adicionar</button></a>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="productsContainer">
+                    <article class="productCard">
+                        <figure class="productFig">
+                            <img src="../resources/puxadaAlta-removebg-preview.png" class="productImg" />
+                        </figure>
+                        <div class="productInfo">
+                            <div class="productData">
+                                <h2>Puxada Alta</h2>
+                                <p>Equipamento para treino de costas</p>
+                                <p class="productPrice">R$ 999,99</p>
+                            </div>
+                            <a class="btnComprar"><button class="addBtn">Adicionar</button></a>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="productsContainer">
+                    <article class="productCard">
+                        <figure class="productFig">
+                            <img src="../resources/supino-inclinado-articulado-prime-1-removebg-preview.png" class="productImg" />
+                        </figure>
+                        <div class="productInfo">
+                            <div class="productData">
+                                <h2>Puxada Alta</h2>
+                                <p>Equipamento para treino de costas</p>
+                                <p class="productPrice">R$ 999,99</p>
+                            </div>
+                            <a class="btnComprar"><button class="addBtn">Adicionar</button></a>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="productsContainer">
+                    <article class="productCard">
+                        <figure class="productFig">
+                            <img src="../resources/agacahmentoHack-removebg-preview.png" class="productImg" />
+                        </figure>
+                        <div class="productInfo">
+                            <div class="productData">
+                                <h2>Banco de Supino</h2>
+                                <p>Banco ajustável para treino completo</p>
+                                <p class="productPrice">R$ 999,99</p>
+                            </div>
+                            <a class="btnComprar"><button class="addBtn">Adicionar</button></a>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="productsContainer">
+                    <article class="productCard">
+                        <figure class="productFig">
+                            <img src="../resources/cadeiraExtensora-removebg-preview.png" class="productImg" />
+                        </figure>
+                        <div class="productInfo">
+                            <div class="productData">
+                                <h2>Cadeira Extensora</h2>
+                                <p>Cadeira para treino de pernas</p>
+                                <p class="productPrice">R$ 999,99</p>
+                            </div>
+                            <a class="btnComprar"><button class="addBtn">Adicionar</button></a>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="productsContainer">
+                    <article class="productCard">
+                        <figure class="productFig">
+                            <img src="../resources/puxadaAlta-removebg-preview.png" class="productImg" />
+                        </figure>
+                        <div class="productInfo">
+                            <div class="productData">
+                                <h2>Puxada Alta</h2>
+                                <p>Equipamento para treino de costas</p>
+                                <p class="productPrice">R$ 999,99</p>
+                            </div>
+                            <a class="btnComprar"><button class="addBtn">Adicionar</button></a>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="productsContainer">
+                    <article class="productCard">
+                        <figure class="productFig">
+                            <img src="../resources/supino-inclinado-articulado-prime-1-removebg-preview.png" class="productImg" />
+                        </figure>
+                        <div class="productInfo">
+                            <div class="productData">
+                                <h2>Puxada Alta</h2>
+                                <p>Equipamento para treino de costas</p>
+                                <p class="productPrice">R$ 999,99</p>
+                            </div>
+                            <a class="btnComprar"><button class="addBtn">Adicionar</button></a>
+                        </div>
+                    </article>
+                </div>
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </article>
+
+
+
+
+        </section>
+    </main>
+    <footer>
+        <p>© 2025 Lift. Todos os direitos reservados.</p>
+    </footer>
+</body>
+
+</html>
