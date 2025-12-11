@@ -112,7 +112,13 @@ footer{
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    
+    margin-bottom: 5%;
+    gap: 1%;
+}
+
+#productsSection h1{
+    font-family: Manrope;
+    font-size: 60px;
 }
 
 #productsFilters{
@@ -211,6 +217,10 @@ footer{
     font-size: 20px;
     padding: 10px;
     cursor: pointer;
+}
+
+.addBtn:hover{
+    transform: translateY(-4px) scale(1.05);
 }
 
 .productFig{
