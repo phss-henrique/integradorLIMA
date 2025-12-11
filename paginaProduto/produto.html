@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalhes do Produto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="pageContainer">
+    <main class="productDetailSection">
+        <nav class="breadcrumbNav">
+            <a href="../produtos/produtos.html" class="breadcrumbLink">
+                <span class="iconBack">←</span>
+                Voltar para produtos
+            </a>
+        </nav>
+
+        <article class="productCard">
+            <section class="productImageWrapper">
+                <img src="../resources/supino-inclinado-articulado-prime-1-removebg-preview.png" alt="Produto" id="productImage" class="productImage">
+                <div id="productFeatured" class="productFeaturedTag">
+                    ⭐ Destaque
+                </div>
+            </section>
+
+            <section class="productInfo">
+                <span id="productCategory" class="productCategory">Musculação</span>
+
+                <h1 id="productName" class="productTitle">Banco de Supino</h1>
+
+                <p id="productDescription" class="productShortDescription">Banco ajustável para treino completo</p>
+
+                <div class="productPriceBox">
+                    <span id="productPrice" class="productPrice">R$12,000</span>
+                    <span id="productInstallments" class="productInstallments">15x sem juros</span>
+                    <p class="pixDiscount">à vista no PIX com 5% de desconto</p>
+                </div>
+
+                <div id="productStockStatus" class="productStockStatus"></div>
+
+                <button id="addToCartButton" class="addToCartButton">
+                    🛒 Adicionar ao Carrinho
+                </button>
+
+                <section class="productBenefits">
+                    <div class="benefitItem">
+                        <span class="benefitIcon">🚚</span>
+                        <div>
+                            <p>Frete Grátis</p>
+                            <small>Sul e Sudeste</small>
+                        </div>
+                    </div>
+
+                    <div class="benefitItem">
+                        <span class="benefitIcon">🛡️</span>
+                        <div>
+                            <p>Garantia</p>
+                            <small id="productWarranty"></small>
+                        </div>
+                    </div>
+
+                    <div class="benefitItem">
+                        <span class="benefitIcon">💳</span>
+                        <div>
+                            <p>Parcelamento</p>
+                            <small>Até 12x sem juros</small>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="productFullDescription">
+                    <h2>Descrição do Produto</h2>
+                    <p id="productFullDescriptionText"></p>
+                </section>
+
+                <section class="productSpecsSection">
+                    <h2>Especificações Técnicas</h2>
+                    <div id="productSpecsList" class="specsList"></div>
+                </section>
+            </section>
+        </article>
+
+       
+    </main>
+</body>
+</html>

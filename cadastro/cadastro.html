@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Crie sua Conta - FitMachines</title>
+    <title>Cadastro</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -12,7 +12,7 @@
         <article class="success-card">
             <div class="success-icon">✔</div>
             <h2>Cadastro Realizado!</h2>
-            <p>Bem-vindo à FitMachines! Sua conta foi criada com sucesso.</p>
+            <p>Bem-vindo à Lift! Sua conta foi criada com sucesso.</p>
             <a href="/produtos" class="btn-success">Começar a Comprar →</a>
         </article>
     </section>
@@ -20,7 +20,7 @@
     <main class="signup-container">
 
         <header class="header">
-            <a href="/" class="logo">
+            <a href="../index.html" class="logo">
                 <img src="../resources/logoBlack.png" alt="Lift Logo"/>
             </a>
             <h1>Crie sua Conta</h1>
@@ -97,15 +97,17 @@
                     <input type="password" required>
 
                     <div class="terms">
-                        <input type="checkbox" required>
-                        <label>Eu aceito os termos de uso e a política de privacidade da FitMachines</label>
+                        <div class="checkbox">
+                            <input type="checkbox" required id="checkboxId">
+                        </div>
+                        <label>Eu aceito os termos de uso e a política de privacidade da Lift</label>
                     </div>
 
                     <button type="submit" class="btn">Criar Minha Conta →</button>
 
                     <p class="login">
                         Já tem uma conta?
-                        <a href="/login">Faça login</a>
+                        <a href="../login/login.html">Faça login</a>
                     </p>
                 </form>
             </section>
