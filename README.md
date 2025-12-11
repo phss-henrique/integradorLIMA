@@ -1,39 +1,81 @@
-# Documentação do Projeto: integradorLIMA
+# Integrador Lima - Máquinas e Equipamentos de Academia
 
-## Visão Geral
-O projeto **integradorLIMA** é um site institucional com páginas estáticas, desenvolvido para apresentar informações sobre produtos, cadastro de usuários, login, detalhes de produtos e informações institucionais. O site é composto por múltiplas páginas HTML, cada uma com seu próprio arquivo de estilo CSS, organizadas em subdiretórios temáticos.
+## Sobre o Projeto
+
+Olá! Meu nome é **Pedro Henrique**, e desenvolvi este projeto com o objetivo de transformar a paixão pelo fitness em uma oportunidade de negócio real. O Integrador Lima é uma plataforma dedicada à venda de máquinas e equipamentos de alta qualidade para academias e entusiastas do esporte.
+
+Este projeto nasceu da visão de democratizar o acesso a equipamentos premium, conectando fornecedores e clientes de forma prática e eficiente. Acreditamos que investir em bom equipamento é investir na saúde e no sucesso de quem busca transformação através do fitness.
+
+Com o Integrador Lima, você encontrará:
+
+- **Catálogo completo** de máquinas e equipamentos para academia
+- **Informações detalhadas** sobre cada produto
+- **Processo de compra simples** e intuitivo
+- **Credibilidade e confiança** em cada transação
+
+## Como Rodar o Projeto
+
+Como se trata de um site estático desenvolvido em **HTML e CSS**, o processo para rodar é bem simples:
+
+### 1. Clonar o Repositório
+
+```bash
+git clone https://github.com/phss-henrique/integradorLIMA.git
+```
+
+### 2. Navegar até o Diretório do Projeto
+
+```bash
+cd integradorLIMA
+```
+
+### 3. Abrir o Arquivo Principal
+
+Abra o arquivo `index.html` no seu navegador. Você pode fazer isso de duas formas:
+
+- **Clique duplo** direto no arquivo `index.html`
+- **Ou arraste e solte** o arquivo no navegador
+- **Ou use a opção** "Abrir" do navegador (Ctrl+O no Windows)
+
+### 4. Navegar pelas Páginas
+
+Assim que o site carregar, você poderá navegar por todas as seções:
+
+- **Home** - Página principal com destaques
+- **Produtos** - Catálogo completo de máquinas e equipamentos
+- **Produto** - Detalhes individuais de cada item
+- **Carrinho** - Suas compras selecionadas
+- **Login** - Acesso à conta
+- **Cadastro** - Criar nova conta
+- **Admin** - Painel administrativo
+- **Sobre** - Informações sobre o negócio
 
 ## Estrutura do Projeto
-- `index.html`: Página inicial do site.
-- `cadastro/`: Página de cadastro de usuários.
-- `login/`: Página de login de usuários.
-- `paginaProduto/`: Página de detalhes de produtos.
-- `produtos/`: Página de listagem de produtos.
-- `sobre/`: Página sobre a empresa ou projeto.
-- `resources/`: Pasta reservada para recursos adicionais (imagens, scripts, etc.).
 
-Cada pasta contém um arquivo HTML e um CSS correspondente para estilização individual.
+```
+integradorLIMA/
+├── index.html              # Página principal
+├── style.css              # Estilos globais
+├── README.md              # Este arquivo
+├── admin/                 # Painel administrativo
+├── cadastro/              # Página de cadastro
+├── carrinho/              # Página do carrinho
+├── login/                 # Página de login
+├── paginaProduto/         # Detalhes do produto
+├── produtos/              # Catálogo de produtos
+├── sobre/                 # Página sobre
+└── resources/             # Recursos (imagens, etc)
+```
 
-## Requisitos Funcionais
-1. **Navegação entre páginas**: O usuário pode navegar entre as páginas principais do site (início, produtos, cadastro, login, sobre, etc.).
-2. **Exibição de informações**: Cada página apresenta informações estáticas relevantes ao seu tema (ex: produtos, informações institucionais, formulários de cadastro/login).
-3. **Formulários**: As páginas de cadastro e login apresentam formulários para preenchimento de dados pelo usuário (funcionalidade estática, sem backend).
-4. **Visualização de produtos**: A página de produtos exibe uma lista de produtos e a página de produto exibe detalhes de um produto específico.
-5. **Design Responsivo**: O site deve ser visualmente agradável e adaptável a diferentes tamanhos de tela, conforme definido nos arquivos CSS.
+## Tecnologias Utilizadas
 
-## Requisitos Não Funcionais
-1. **Estrutura Estática**: O site é composto majoritariamente por páginas estáticas, sem integração com banco de dados ou backend dinâmico.
-2. **Organização de Arquivos**: O projeto está organizado em subdiretórios para facilitar a manutenção e escalabilidade.
-3. **Performance**: Por ser estático, o site apresenta carregamento rápido e baixo consumo de recursos.
-4. **Compatibilidade**: O site deve funcionar nos principais navegadores modernos.
-5. **Acessibilidade**: As páginas devem ser acessíveis, com uso adequado de tags HTML semânticas.
-6. **Manutenibilidade**: O uso de CSS modularizado por página facilita a manutenção e futuras alterações visuais.
+- **HTML5** - Estrutura e markup
+- **CSS3** - Estilização e layout
+- **Git** - Controle de versão
 
-## Observações
-- O projeto não possui funcionalidades dinâmicas, como autenticação real, persistência de dados ou interações com servidor.
-- Caso seja necessário adicionar funcionalidades dinâmicas no futuro, recomenda-se a integração com um backend e uso de JavaScript para manipulação de dados.
+## Licença
+
+Este projeto é de uso pessoal e comercial.
 
 ---
 
-**Autor:** Equipe integradorLIMA
-**Data:** Dezembro/2025
