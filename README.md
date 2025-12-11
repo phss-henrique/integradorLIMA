@@ -35,7 +35,7 @@ Abra o arquivo `index.html` no seu navegador. Você pode fazer isso de duas form
 
 - **Clique duplo** direto no arquivo `index.html`
 - **Ou arraste e solte** o arquivo no navegador
-- **Ou use a opção** "Abrir" do navegador (Ctrl+O no Windows)
+- **Ou use a opção** "Abrir" do navegador
 
 ### 4. Navegar pelas Páginas
 
@@ -50,22 +50,6 @@ Assim que o site carregar, você poderá navegar por todas as seções:
 - **Admin** - Painel administrativo
 - **Sobre** - Informações sobre o negócio
 
-## Estrutura do Projeto
-
-```
-integradorLIMA/
-├── index.html              # Página principal
-├── style.css              # Estilos globais
-├── README.md              # Este arquivo
-├── admin/                 # Painel administrativo
-├── cadastro/              # Página de cadastro
-├── carrinho/              # Página do carrinho
-├── login/                 # Página de login
-├── paginaProduto/         # Detalhes do produto
-├── produtos/              # Catálogo de produtos
-├── sobre/                 # Página sobre
-└── resources/             # Recursos (imagens, etc)
-```
 
 ## Tecnologias Utilizadas
 
