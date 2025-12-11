@@ -150,6 +150,7 @@ main{
     transition: background 0.2s ease;
     cursor: pointer;
     text-decoration: none;
+    font-family: Manrope;
 }
 
 .btnOutline:hover {
