@@ -112,7 +112,7 @@ footer{
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    flex: 1;
+    
 }
 
 #productsFilters{
@@ -164,12 +164,14 @@ footer{
 
 
 #productsList{
-    width: 80%;
+    width: 85%;
     align-items: center;
     justify-content: center;
 
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    margin-top: 5%;
 }
 
 .productsContainer{
@@ -182,13 +184,14 @@ footer{
 }
 
 .productCard{
-    width: 90%;
+    width: 95%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     box-shadow: 0px -2px 5px rgba(0,0,0,0.1);
     border-radius: 10px;
+    
 }
 
 .productInfo{
@@ -197,6 +200,7 @@ footer{
     flex-direction: row;
     justify-content: space-around;
     align-items: end;
+    margin: 2%;
 }
 .addBtn{
     border: none;

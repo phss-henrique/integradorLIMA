@@ -1,0 +1,280 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: linear-gradient(to bottom right, #f7f7f7, #eaeaea);
+    padding: 20px;
+}
+
+.cartPage {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.cartHeader {
+    margin-bottom: 32px;
+}
+
+.cartTitle {
+    font-size: 32px;
+}
+
+.cartSubtitle {
+    color: #555;
+    margin-top: 4px;
+}
+
+.cartGrid {
+    display: grid;
+    grid-template-columns: 1fr 350px;
+    gap: 24px;
+}
+
+.productsList {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.productCard {
+    background: white;
+    padding: 20px;
+    border-radius: 16px;
+    display: flex;
+    gap: 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+
+.productImageWrapper {
+    width: 130px;
+    height: 130px;
+    overflow: hidden;
+    border-radius: 12px;
+    background: #eee;
+    flex-shrink: 0;
+}
+
+.productImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.productInfo {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.productHeader {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+
+.productName {
+    font-size: 20px;
+    text-decoration: none;
+    color: #222;
+}
+
+.productDescription {
+    font-size: 14px;
+    color: #666;
+    margin-top: 4px;
+}
+
+.productCategory {
+    display: inline-block;
+    margin-top: 8px;
+    padding: 4px 10px;
+    border-radius: 12px;
+    background: #e8f7eb;
+    color: #2f8f41;
+    font-size: 13px;
+}
+
+.removeButton {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: #c0392b;
+}
+
+.productFooter {
+    margin-top: auto;
+    padding-top: 16px;
+    border-top: 1px solid #eee;
+    display: flex;
+    justify-content: space-between;
+}
+
+.quantityControl {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.quantityBox {
+    display: flex;
+    align-items: center;
+    background: #f2f2f2;
+    padding: 6px;
+    border-radius: 8px;
+    gap: 10px;
+}
+
+.quantityBtn {
+    background: white;
+    border: none;
+    padding: 4px 8px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.productPriceBox {
+    text-align: right;
+}
+
+.productUnitPrice {
+    font-size: 14px;
+    color: #666;
+}
+
+.productTotalPrice {
+    font-size: 22px;
+    color: #2f8f41;
+}
+
+.actionsRow {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.continueButton {
+    color: #2f8f41;
+    text-decoration: none;
+}
+
+.clearCartButton {
+    background: none;
+    border: none;
+    color: #c0392b;
+    cursor: pointer;
+}
+
+.orderSummary {
+    background: white;
+    padding: 24px;
+    border-radius: 16px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+    height: fit-content;
+}
+
+.summaryTitle {
+    font-size: 22px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 16px;
+}
+
+.summaryProducts {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 16px;
+    margin-bottom: 16px;
+}
+
+.summaryItem {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+.summaryValues {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 16px;
+    margin-bottom: 16px;
+}
+
+.summaryRow {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.summaryTotalBox {
+    background: #f0fdf4;
+    padding: 16px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+.totalLabel {
+    font-size: 18px;
+}
+
+.totalValue {
+    font-size: 28px;
+    color: #2f8f41;
+}
+
+.installments {
+    font-size: 13px;
+    color: #666;
+}
+
+.checkoutButton {
+    width: 100%;
+    padding: 14px;
+    font-size: 18px;
+    color: white;
+    background: #2f8f41;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.paymentSecurity {
+    text-align: center;
+    font-size: 14px;
+    margin: 14px 0;
+    color: #777;
+}
+
+.benefitsList {
+    margin-top: 16px;
+}
+
+.benefitItem {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 16px;
+}
+
+.benefitIcon {
+    background: #e8f7eb;
+    color: #2f8f41;
+    width: 34px;
+    height: 34px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.benefitTitle {
+    font-size: 14px;
+    color: #222;
+}
+
+.benefitSubtitle {
+    font-size: 12px;
+    color: #777;
+}

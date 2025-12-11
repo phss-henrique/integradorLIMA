@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrinho</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<main class="cartPage">
+
+    <header class="cartHeader">
+        <h1 class="cartTitle">Meu Carrinho</h1>
+        <p class="cartSubtitle">1 produto no carrinho</p>
+    </header>
+
+    <section class="cartGrid">
+
+        <section class="productsList">
+
+            <article class="productCard">
+                <a href="#" class="productImageWrapper">
+                    <img src="../resources/supino-inclinado-articulado-prime-1-removebg-preview.png" alt="Produto" class="productImage">
+                </a>
+
+                <div class="productInfo">
+                    <div class="productHeader">
+                        <div class="productText">
+                            <a href="#" class="productName">Supino inclinado máquina articulado</a>
+                            <p class="productDescription">
+                                Supino articulado com ênfase no desenvolvimento de superior de peito
+                            </p>
+                            <div class="productCategory">
+                                Musculação
+                            </div>
+                        </div>
+
+                        <button class="removeButton">🗑</button>
+                    </div>
+
+                    <div class="productFooter">
+                        <div class="quantityControl">
+                            <span class="quantityLabel">Quantidade:</span>
+                            <div class="quantityBox">
+                                <button class="quantityBtn">-</button>
+                                <span class="quantityValue">1</span>
+                                <button class="quantityBtn">+</button>
+                            </div>
+                        </div>
+
+                        <div class="productPriceBox">
+                            <div class="productUnitPrice">R$ 13250,00 × 1</div>
+                            <div class="productTotalPrice">R$ 13250,00</div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <div class="actionsRow">
+                <a href="../produtos/produtos.html" class="continueButton" >← Continuar Comprando</a>
+                <button class="clearCartButton">🗑 Limpar Carrinho</button>
+            </div>
+
+        </section>
+
+        <aside class="orderSummary">
+            <h2 class="summaryTitle">Resumo do Pedido</h2>
+
+            <div class="summaryProducts">
+                <div class="summaryItem">
+                    <span class="itemName">Produto X × 1</span>
+                    <span class="itemPrice">R$ 13250,00</span>
+                </div>
+            </div>
+
+            <div class="summaryValues">
+                <div class="summaryRow">
+                    <span>Subtotal</span>
+                    <span class="subtotalValue">R$ 13250,00</span>
+                </div>
+
+                <div class="summaryRow">
+                    <span>Frete</span>
+                    <span class="shippingValue">Grátis</span>
+                </div>
+            </div>
+
+            <div class="summaryTotalBox">
+                <span class="totalLabel">Total</span>
+                <div class="totalValues">
+                    <div class="totalValue">R$ 13250,00</div>
+                    <div class="installments">ou 12× de R$ 1.104</div>
+                </div>
+            </div>
+
+            <button class="checkoutButton">Finalizar Compra</button>
+
+            <p class="paymentSecurity">🔒 Pagamento 100% seguro</p>
+
+            <div class="benefitsList">
+                <div class="benefitItem">
+                    <div class="benefitIcon">🚚</div>
+                    <div class="benefitText">
+                        <span class="benefitTitle">Frete Grátis</span>
+                        <span class="benefitSubtitle">Para todo o Brasil</span>
+                    </div>
+                </div>
+
+                <div class="benefitItem">
+                    <div class="benefitIcon">✔</div>
+                    <div class="benefitText">
+                        <span class="benefitTitle">Garantia Estendida</span>
+                        <span class="benefitSubtitle">Até 2 anos de garantia</span>
+                    </div>
+                </div>
+
+                <div class="benefitItem">
+                    <div class="benefitIcon">📦</div>
+                    <div class="benefitText">
+                        <span class="benefitTitle">Parcelamento</span>
+                        <span class="benefitSubtitle">Em até 12× sem juros</span>
+                    </div>
+                </div>
+            </div>
+        </aside>
+
+    </section>
+
+</main>
+
+</body>
+</html>

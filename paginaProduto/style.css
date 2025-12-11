@@ -10,7 +10,7 @@ body, html {
 
 .pageContainer {
     min-height: 100vh;
-    padding: 2rem 0;
+
 }
 
 .breadcrumbNav {
@@ -25,6 +25,7 @@ body, html {
     display: inline-flex;
     align-items: center;
     gap: 8px;
+    margin: 2%;
 }
 
 .productCard {

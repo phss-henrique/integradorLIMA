@@ -1,0 +1,177 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f8fafc;
+  color: #1f2937;
+}
+
+.admSection {
+  background: linear-gradient(to right, #16a34a, #065f46);
+  padding: 80px 20px;
+  text-align: center;
+  color: white;
+}
+
+.admTitle {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.admSubtitle {
+  font-size: 20px;
+  opacity: 0.9;
+}
+
+.storySection {
+  padding: 60px 20px;
+}
+
+.storyCard {
+  background: white;
+  border-radius: 20px;
+  max-width: 850px;
+  margin: 0 auto;
+  padding: 40px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.storyIconWrapper {
+  width: 70px;
+  height: 70px;
+  background: #dcfce7;
+  border-radius: 50%;
+  margin: 0 auto 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.storyIcon {
+  width: 120px;
+  height: 120px;
+}
+
+.storyText p {
+  line-height: 1.7;
+  margin-bottom: 18px;
+}
+
+.valuesSection {
+  background: white;
+  padding: 70px 20px;
+}
+
+.valuesTitle {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 8px;
+}
+
+.valuesSubtitle {
+  text-align: center;
+  font-size: 18px;
+  color: #4b5563;
+  margin-bottom: 40px;
+}
+
+.valuesGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 30px;
+}
+
+.valueCard {
+  background: #f9fafb;
+  border-radius: 18px;
+  padding: 30px;
+  text-align: center;
+  transition: box-shadow 0.2s;
+}
+
+.valueCard:hover {
+  box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+}
+
+.valueIconWrapper {
+  width: 55px;
+  height: 55px;
+  background: #dcfce7;
+  border-radius: 50%;
+  margin: 0 auto 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.valueIcon {
+  width: 32px;
+  height: 32px;
+}
+
+.valueTitle {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.valueText {
+  color: #4b5563;
+  line-height: 1.6;
+}
+
+.statsSection {
+  background: linear-gradient(to right, #16a34a, #065f46);
+  color: white;
+  padding: 60px 20px;
+}
+
+.statsGrid {
+  display: grid;
+  max-width: 900px;
+  margin: 0 auto;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 30px;
+  text-align: center;
+}
+
+.statNumber {
+  font-size: 40px;
+  margin-bottom: 5px;
+}
+
+.statLabel {
+  color: #bbf7d0;
+}
+
+.missionSection {
+  max-width: 800px;
+  margin: 60px auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.missionTitle {
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+
+.missionText {
+  font-size: 20px;
+  color: #4b5563;
+  line-height: 1.7;
+}
+
+.header {
+    width: 30%;
+    text-align: center;
+    color: white;
+}
+
+.logoHeader {
+    width: 10%;
+    display: inline-block;
+    
+}
+img{
+    object-fit: contain;
+    width: 100%;
+}
