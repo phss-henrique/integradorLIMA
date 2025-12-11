@@ -208,7 +208,8 @@ footer{
     background-color: #15803d;
     color: #ffffff;
     font-family: Manrope;
-    font-size: 22px;
+    font-size: 20px;
+    padding: 10px;
     cursor: pointer;
 }
 
